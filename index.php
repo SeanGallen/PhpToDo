@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>PHP Todo</title>
-	<link rel="stylesheet" type="text/css" href="todo.css">
+	<link rel="stylesheet" type="text/css" href="css/todo.css">
 </head>
 <body>
 <div class="postDiv">

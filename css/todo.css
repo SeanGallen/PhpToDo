@@ -7,7 +7,7 @@ html, body {
 }
 
 body {
-  background: url(public/images/postIt.JPG);
+  background: url(../public/images/postIt.JPG);
   background-size: cover;
 }
 
