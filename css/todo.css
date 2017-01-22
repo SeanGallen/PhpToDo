@@ -7,14 +7,14 @@ html, body {
 }
 
 body {
-  background: url(public/images/postIt.JPG);
+  background: url(../public/images/postIt.JPG);
   background-size: cover;
 }
 
 .postDiv {
   position: relative;
   top: 300px;
-  left: 550px;
+  left: 500px;
 }
 
 input {
