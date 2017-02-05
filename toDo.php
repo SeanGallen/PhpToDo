@@ -11,10 +11,6 @@ $sql1 = "create table toDo(id int not null AUTO_INCREMENT PRIMARY KEY, item text
 $sql2 = "insert into toDo(item) value ('Code More')";
 $sql3 = "Select * from toDo";
 
-/* $sql1 = "create table toDo(id int not null auto_increment, item text)"; */
-/* $sql2 = "insert into toDo(id, item) value (1, 'Code more')"; */
-/* $sql3 = "Select * from toDo"; */
-
 mysqli_query($con,$sql1);
 mysqli_query($con,$sql2);
 
