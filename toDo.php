@@ -7,10 +7,13 @@ if (!$con) {
   echo "Failed to connect to MySQL: " . mysqli_connect_error();
 }
 
-$sql1 = "create table To_DO(id int not null auto_increment, item text, primary_key (`id`)
-)";
-$sql2 = "insert into To_DO(id, item) value (1, 'Code more')";
-$sql3 = "Select * from To_DO";
+$sql1 = "create table toDo(id int not null AUTO_INCREMENT PRIMARY KEY, item text not null)";
+$sql2 = "insert into toDo(item) value ('Code More')";
+$sql3 = "Select * from toDo";
+
+/* $sql1 = "create table toDo(id int not null auto_increment, item text)"; */
+/* $sql2 = "insert into toDo(id, item) value (1, 'Code more')"; */
+/* $sql3 = "Select * from toDo"; */
 
 mysqli_query($con,$sql1);
 mysqli_query($con,$sql2);
